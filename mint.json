@@ -1,0 +1,82 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "GrowthX Labs",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Start here",
+      "url": "/get-started/start-here"
+    },
+    {
+      "name": "Is GrowthX for me?",
+      "url": "/working-with/is-for-me"
+    },
+    {
+      "name": "Pricing",
+      "url": "/working-with/pricing"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "/"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Schedule an Intro Call",
+      "icon": "rocket-launch",
+      "url": "https://growthxlabs.com/"
+    },
+    {
+      "name": "Join Upcoming Workshop",
+      "icon": "user-robot",
+      "url": "https://lu.ma/ai-seo-workshop?coupon=AIGROWTH50"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get-started/start-here"
+      ]
+    },
+    {
+      "group": "Working with GrowthX",
+      "pages": [        
+        "working-with/is-for-me",
+        "working-with/pricing",
+        "working-with/presentations"
+      ]
+    },
+    {
+      "group": "Work With Us",
+      "pages": [        
+        "work-with-us/faqs",
+        "work-with-us/kickoff-template",
+        "work-with-us/client-checklist"
+      ]
+    },
+    {
+      "group": "Free Tools",
+      "pages": [        
+        "free-tools/keyword",
+        "free-tools/seo-analyzer",
+        "free-tools/ai-character-rewriter"
+      ]
+    }
+  ]
+}
